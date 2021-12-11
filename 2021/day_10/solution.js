@@ -1,12 +1,14 @@
 {/* Day 10 - 2021 */}
 
+{/* Side Notes : chunks can contain 0 or more chunks, had not understood that at first */}
+
 const fs = require("fs")
 let input = fs
     .readFileSync(__dirname + "/input", { encoding: "utf8" })
     .trim()
     .split(/\r?\n/)
 
-{/* Stack ref : see picture attached or https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/ */}
+{/* Stack-Based algorithm ref : see picture attached or https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/ */}
 
 {/* part 1 */}
 function getCorruptedScore(){
@@ -68,3 +70,4 @@ function getIncompleteScore(){
     return median(incompleteScores)
 }
 console.log('Day 10 - part 2: ' + getIncompleteScore())
+
