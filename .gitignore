@@ -96,3 +96,6 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm+all
+2015/hidden
+2021/hidden
+node_modules
