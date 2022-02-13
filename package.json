@@ -1,0 +1,8 @@
+{
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "dependencies": {
+    "dijkstrajs": "^1.0.2",
+    "lodash": "^4.17.21"
+  }
+}
