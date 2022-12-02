@@ -41,6 +41,7 @@ function buildAdjMatrixObject(input) {
 }
 function shortestPathSmallestRisk(input) {
     const adjObject = buildAdjMatrixObject(input)
+    console.log(adjObject)
     const shortestPath = dijkstra.find_path(adjObject, '0,0', `${input.length - 1},${input[0].length - 1}`);
     let totalRisk = 0;
     shortestPath.splice(1, shortestPath.length).map(risk => {

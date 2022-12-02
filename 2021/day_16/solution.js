@@ -58,5 +58,4 @@ function parsePacket(packet, version) {
 console.log('Day 16 - part 1: ', parsePacket(hexadecimalToBinary(input),0))
 
 {/* part 2 */}
-
 console.log('Day 16 - part 2: ')
