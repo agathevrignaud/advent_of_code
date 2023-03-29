@@ -1,4 +1,4 @@
-{/* Day 9 - 2022 */}
+{/* Day 10 - 2022 */}
 
 const fs = require("fs");
 let input = fs
@@ -35,7 +35,7 @@ const signalStrength = (signals) => {
 
     return totalSignalStrength
 }
-console.log('Day 9 - part 1: ' + signalStrength(input))
+console.log('Day 10 - part 1: ' + signalStrength(input))
 
 {/* part 2 */}
 const draw = (signals) => {
@@ -75,7 +75,7 @@ const draw = (signals) => {
                 break;
         }    
     })
-    console.log('Day 9 - part 2: ')
+    console.log('Day 10 - part 2: ')
     console.log(finalDrawing)
 }
 draw(input)
